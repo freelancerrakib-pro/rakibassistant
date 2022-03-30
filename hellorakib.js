@@ -75,26 +75,16 @@ if ("webkitSpeechRecognition" in window) {
         else if (massage.includes("what are you doing")) {
             speech.text = "I am talking to you right now";
         }
-        else if (massage.includes("your birthday")) {
-            speech.text = "wednesday, March, 30, 2022";
-        }
+        
         else if (massage.includes("good night")) {
             speech.text = "Good Night. Have a sweet dream";
         }
         else if (massage.includes("Tell us something about your developer?")) {
             speech.text = "he is a skilled and professional web desginer and developer. he studied computer science at comilla polytechnic institute. and also works with web desing and devopment and graphics desing.";
         }
-        else if (massage.includes("hi, hello")) {
-            speech.text = "hellow! how can i help you";
-        }
-        else if (massage.includes("where do you live")) {
-            speech.text = "i live in bangladash";
-        }
+        
         else if (massage.includes("where dose your sir study")) {
             speech.text = "he studied comilla polytechnic institute. department of computer science.";
-        }
-        else if (massage.includes("are you single")) {
-            speech.text = "i do not want to share the matter with you";
         }
         else if (massage.includes("where is comilla polytechnic institute located")) {
             speech.text = "in comilla kotbari";
@@ -124,9 +114,9 @@ if ("webkitSpeechRecognition" in window) {
         else if (massage.includes("who is the best man in the world")) {
             speech.text = "hozrot muhammad sallallahu alaihi wasallam";
         }
-        else if (massage.includes("today date")) {
-            speech.text = `${date}`;
-        }
+        //else if (massage.includes("today date")) {
+          //  speech.text = `${date}`;
+       // }
         // else if (massage.includes("time")) {
         //     speech.text = `${time}`;
         // }
