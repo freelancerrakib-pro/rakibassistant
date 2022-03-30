@@ -61,7 +61,7 @@ if ("webkitSpeechRecognition" in window) {
         let speech = new SpeechSynthesisUtterance();
 
         if (massage.includes("how are you")) {
-            speech.text = "I am fine";
+            speech.text = "I am fine by the grace of allah";
         }
         else if (massage.includes("what is your name")) {
             speech.text = "I am developer rakibs voice assistant";
